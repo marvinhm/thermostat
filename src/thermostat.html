@@ -5,18 +5,14 @@
 </head>
 <body>
   <p id="temp">Temperature</p>
-  <form id="uptemp" action ="/" method ="get">
-  <input type="submit" value="Increase temp">
-  </form>
-  <form id="downtemp" action ="/" method ="get">
-  <input type="submit" value="Decrease temp">
-  </form>
-  <form id="resettemp" action ="/" method ="get">
-  <input type="submit" value="Reset temp">
-  </form>
-  <form id="getusage" action ="/" method ="get">
-  <input type="submit" value="Show energy usage">
-  </form>
+  <p id="powersavingmode">Power saving mode is off </p>
+  <button id="temperature-up">Increase temp</button>
+  <button id="temperature-down">Decrease temp</button>
+  <button id="resettemp">reset temp</button>
+  <button id="turnonenergysaving">turn energy saving mode on</button>
+  <button id="turnoffenergysaving">turn energy saving mode off</button>
+  Power saving mode is <span id="power-saving-status">on</span>
+  <button id="getenergyusage">Show energy usage</button>
   <script src="ThermoStat.js"> </script>
 
 </body>
